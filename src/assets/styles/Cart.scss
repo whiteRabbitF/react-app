@@ -1,0 +1,28 @@
+@import "variables";
+
+.cart {
+  h2 {
+    color: black;
+  }
+  span {
+    color: black;
+  }
+  .cart-btn {
+    border: $default-border;
+    background: transparent;
+    color: $secondary-color;
+    font-weight: 300;
+    border-radius: 25px;
+    padding: 10px 35px;
+
+    &:hover {
+      background: $secondary-color;
+      color: white;
+    }
+
+    &:active {
+      background: $secondary-color;
+      color: white;
+    }
+  }
+}

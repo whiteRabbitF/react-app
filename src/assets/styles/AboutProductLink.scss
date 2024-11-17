@@ -1,0 +1,70 @@
+@import "variables";
+
+.about {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 50%;
+  //border: 1px #1a1a1a solid;
+  margin: 0 auto 50px;
+  justify-content: center;
+  align-items: center;
+
+  & .img-container {
+    width: 300px;
+    height: auto;
+    img {
+      width: 300px;
+      height: auto;
+    }
+  }
+
+  & .product-container {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 540px;
+
+   & .product-wrapper {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     gap: 5px;
+
+      & .title-one {
+        font-weight: 300;
+        font-size: 50px;
+        color: black;
+      }
+
+      & .title-two {
+        font-weight: 300;
+        font-size: 50px;
+        color: $secondary-color;
+      }
+      & .subtitle {
+        font-weight: 400;
+        font-size: 18px;
+        color: $main-text-color;
+        text-align: left;
+        flex-wrap: wrap;
+      }
+      & .production-btn {
+        border: $default-border;
+        background: transparent;
+        color: $secondary-color;
+        font-weight: 300;
+        border-radius: 0 !important;
+        padding: 10px 35px;
+        margin-top: 20px;
+
+        &:hover {
+          background: $secondary-color;
+          color: white;
+        }
+      }
+    }
+  }
+}

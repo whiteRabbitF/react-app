@@ -1,0 +1,64 @@
+[
+  {
+    "image": "/img/products/img1.jpg",
+    "author": "Автор 1",
+    "title": "Картина 1",
+    "instrument": "Масло",
+    "price": 1500
+  },
+  {
+    "image": "/img/products/img2.jpg",
+    "author": "Автор 2",
+    "title": "Картина 2",
+    "instrument": "Акварель",
+    "price": 2000
+  },
+  {
+    "image": "/img/products/img3.jpg",
+    "author": "Автор 2",
+    "title": "Картина 2",
+    "instrument": "Акварель",
+    "price": 2000
+  },
+  {
+    "image": "/img/products/img1.jpg",
+    "author": "Автор 1",
+    "title": "Картина 1",
+    "instrument": "Масло",
+    "price": 1500
+  },
+  {
+    "image": "/img/products/img2.jpg",
+    "author": "Автор 2",
+    "title": "Картина 2",
+    "instrument": "Акварель",
+    "price": 2000
+  },
+  {
+    "image": "/img/products/img3.jpg",
+    "author": "Автор 2",
+    "title": "Картина 2",
+    "instrument": "Акварель",
+    "price": 2000
+  },{
+  "image": "/img/products/img1.jpg",
+  "author": "Автор 1",
+  "title": "Картина 1",
+  "instrument": "Масло",
+  "price": 1500
+},
+  {
+    "image": "/img/products/img2.jpg",
+    "author": "Автор 2",
+    "title": "Картина 2",
+    "instrument": "Акварель",
+    "price": 2000
+  },
+  {
+    "image": "/img/products/img3.jpg",
+    "author": "Автор 2",
+    "title": "Картина 2",
+    "instrument": "Акварель",
+    "price": 2000
+  }
+]
